@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TopUp bydod144p</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #0c0c0c; color: #eee; margin: 0; padding: 0; }
+    header { background: #1a1a1a; padding: 20px; text-align: center; }
+    h1 { margin: 0; }
+    .container { padding: 20px; max-width: 400px; margin: auto; }
+    input, select, button {
+      width: 100%; padding: 12px; margin: 10px 0;
+      border: none; border-radius: 8px;
+    }
+    button {
+      background-color: #4caf50; color: white; font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TopUp bydod144p</h1>
+    <p>Layanan Top Up Game & E-Wallet 24 Jam</p>
+  </header>
+  <div class="container">
+    <form action="https://wa.me/6287731657547" method="get" target="_blank">
+      <label for="game">Pilih Game:</label>
+      <select id="game" name="game">
+        <option value="Free Fire">Free Fire</option>
+        <option value="Mobile Legends">Mobile Legends</option>
+        <option value="PUBG">PUBG</option>
+        <option value="Valorant">Valorant</option>
+      </select>
+
+      <label for="id">ID Pemain:</label>
+      <input type="text" id="id" name="id" placeholder="Masukkan ID Game Anda" required />
+
+      <label for="nominal">Nominal:</label>
+      <input type="text" id="nominal" name="nominal" placeholder="Contoh: 86 Diamonds / 70 UC" required />
+
+      <label for="bayar">Metode Pembayaran:</label>
+      <select id="bayar" name="bayar">
+        <option value="Dana">Dana</option>
+        <option value="Gopay">Gopay</option>
+        <option value="OVO">OVO</option>
+        <option value="Pulsa Telkomsel">Pulsa Telkomsel</option>
+      </select>
+
+      <button type="submit">Kirim Pesanan via WhatsApp</button>
+    </form>
+  </div>
+</body>
+</html>
